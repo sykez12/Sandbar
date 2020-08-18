@@ -12,7 +12,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #9b59b6;
+    background-color: #676767;
 }
 
 .ui-menu-color-current-projects {
@@ -20,7 +20,7 @@
 }
 
 .ui-menu-color-associates {
-    background-color: #676767;
+    background-color: #4CC1A8;
 }
 
 /*----------------------------------------Special paddings/margins/text */
@@ -63,8 +63,9 @@ h4 {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 2px;
+    color: #FFF;
 }
 
 .values {
@@ -74,11 +75,13 @@ h4 {
     margin-bottom: 50px;
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 2px;
+    color: #000000;
 }
 
 .three-values {
@@ -88,13 +91,29 @@ h4 {
     margin-bottom: 50px;
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 2px;
+    color: #FFF;
 }
 
+.assoc {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+}
 /*----------------------------------------Heading */
 
 header {
@@ -116,12 +135,34 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.sandbar-site-one {
+    background: url("../images/Sandbar site 1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 460px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.sandbar-site-two {
+    background: url("../images/Sandbar site 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 460px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: #FFF;
 }
 
@@ -143,7 +184,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 100px;
     text-align: center;
     padding: 0;
 }
