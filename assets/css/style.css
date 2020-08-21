@@ -128,7 +128,6 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 60px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -138,7 +137,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 460px;
+    min-height: 280px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -148,7 +147,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 460px;
+    min-height: 280px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
