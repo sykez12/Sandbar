@@ -125,18 +125,16 @@ header {
 }
 
 .logo {
-    background: url("../images/Sandbar.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 120px;
+    min-height: 60px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
 .sandbar-site-one {
-    background: url("../images/Sandbar site 1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,7 +145,6 @@ header {
 }
 
 .sandbar-site-two {
-    background: url("../images/Sandbar site 2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
