@@ -102,7 +102,7 @@ h4 {
 
 .assoc {
     font-family: "Exo", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
@@ -110,9 +110,9 @@ h4 {
     padding-top: 2px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 2px;
-    color: #000000;
+    color: #4CC1A8;
 }
 /*----------------------------------------Heading */
 
@@ -156,7 +156,7 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -234,4 +234,8 @@ body, html {
     padding: 0px;
     background-color: #ededed;
     font-family: 'Trebuchet MS';
+}
+
+.enquiries {
+    color: #78D1ED;
 }
